@@ -5,57 +5,30 @@ Program ini melakukan web scraping berita dari situs online (seperti CNN Indones
 
 
 <h3>🔧 Fitur</h3>
-1. Scraping artikel berita dari situs tertentu.
-2. Ekstraksi isi teks berita.
-3. Pembersihan teks (stopwords, simbol, angka).
-4. Visualisasi dalam bentuk WordCloud.
-5. Simpan hasil sebagai gambar PNG.
+<p>1. Scraping artikel berita dari situs tertentu.</p>
+<p>2. Ekstraksi isi teks berita.</p>
+<p>3. Pembersihan teks (stopwords, simbol, angka).</p>
+<p>4. Visualisasi dalam bentuk WordCloud.</p>
+<p>5. Simpan hasil sebagai gambar PNG.</p>
 
 <h3>🚀 Instalasi</h3>
-
-  Clone repositori ini:
-
-git clone https://github.com/namamu/wordcloud-news-scraper.git
-cd wordcloud-news-scraper
-
 Install dependencies:
 
 pip install -r requirements.txt
 
 <h3>📦 Requirements <h3>
-
-  1. requests
-  2. beautifulsoup4
-  3. wordcloud
-  4. matplotlib
-  5. nltk (untuk stopwords)
+<p>1. requests</p>
+<p>2. beautifulsoup4</p>
+<p>3. wordcloud</p>
+<p>4. matplotlib</p>
+<p>5. nltk (untuk stopwords)</p>
 
 pip install requests beautifulsoup4 wordcloud matplotlib nltk
 
-🛠 Cara Pakai
+<h3>🖼 Contoh Output</h3>
 
-python scraper.py
 
-Atau jika ingin scraping dari URL tertentu:
-
-python scraper.py --url "https://www.detik.com/..."
-
-🖼 Contoh Output
-
-Setelah scraping dan memproses data, program akan menghasilkan file wordcloud.png seperti berikut:
-
-📁 Struktur Folder
-
-wordcloud-news-scraper/
-│
-├── scraper.py           # File utama scraping dan generate wordcloud
-├── utils.py             # Fungsi bantu untuk cleaning dan text processing
-├── requirements.txt     # Library yang dibutuhkan
-├── output/
-│   └── wordcloud.png    # Output file
-└── README.md
-
-📌 Catatan
+<h3>📌 Catatan</h3>
 
   Website berita memiliki struktur HTML yang berbeda. Pastikan scraper disesuaikan.
   Tidak disarankan scraping dalam jumlah besar tanpa izin dari situs (ikutilah etika web scraping).
