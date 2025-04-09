@@ -16,17 +16,23 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-<h3>📦 Requirements <h3>
+<h3>📦 Requirements</h3>
 <p>1. requests</p>
 <p>2. beautifulsoup4</p>
 <p>3. wordcloud</p>
 <p>4. matplotlib</p>
 <p>5. nltk (untuk stopwords)</p>
 
-pip install requests beautifulsoup4 wordcloud matplotlib nltk
-
+  pip install requests beautifulsoup4 wordcloud matplotlib nltk
+  !pip install Sastrawi feedparser wordcloud gradio --quiet
+  
 <h3>🖼 Contoh Output</h3>
 
+![image](https://github.com/user-attachments/assets/29405571-e588-4ca4-840a-c0330084549a)
+
+![bar_plot](https://github.com/user-attachments/assets/3f097765-f57e-4ad1-8a6d-8ec941249c6d)
+
+![image](https://github.com/user-attachments/assets/cd848935-801c-4364-9bbe-aaca1a6faeea)
 
 <h3>📌 Catatan</h3>
 
